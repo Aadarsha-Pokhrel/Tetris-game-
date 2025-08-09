@@ -1,0 +1,48 @@
+#ifndef TETRIS_GAME_HPP
+#define TETRIS_GAME_HPP
+
+#include <SFML/Graphics.hpp>
+#include <memory>
+#include <random>
+#include "Board.hpp"
+#include "Tetromino.hpp"
+#include "Constants.hpp"
+
+class Game {
+public:
+    Game();
+    void run();
+
+private:
+    void processEvents();
+    void update(float deltaTime);
+    void render();
+    void spawnTetromino();
+    void initializeText();
+    void updateUIText();
+    void drawNextPiecePreview();
+    void drawPauseScreen();
+
+    sf::RenderWindow window;
+    Board board;
+    std::unique_ptr<Tetromino> currentTetromino;
+    std::unique_ptr<Tetromino> nextTetromino;
+
+    sf::Font font;
+    sf::Text scoreText;
+    sf::Text levelText;
+    sf::Text linesText;
+    sf::Text gameOverText;
+
+    float moveDelay;
+    float timeSinceLastMove;
+
+    std::random_device rd;
+    std::mt19937 gen;
+    std::uniform_int_distribution<int> dist;
+
+    bool isPaused;
+    bool fastDrop;
+};
+
+#endif
