@@ -28,9 +28,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ClCompile Include="StartScreen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+=======
+>>>>>>> 31caca8715998a75f980662684775b7544a0d480
 =======
 >>>>>>> 31caca8715998a75f980662684775b7544a0d480
   </ItemGroup>
@@ -48,9 +51,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ClInclude Include="StartScreen.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+=======
+>>>>>>> 31caca8715998a75f980662684775b7544a0d480
 =======
 >>>>>>> 31caca8715998a75f980662684775b7544a0d480
   </ItemGroup>

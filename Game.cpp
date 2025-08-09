@@ -1,11 +1,17 @@
 #include "Game.hpp"
 <<<<<<< HEAD
+<<<<<<< HEAD
 #include "Board.hpp"
 #include "Tetromino.hpp"
 #include "Constants.hpp"
 #include <sstream>
 #include <iostream>
 #include <SFML/Graphics.hpp>
+=======
+#include <iostream>
+#include <sstream>
+#include <vector>
+>>>>>>> 31caca8715998a75f980662684775b7544a0d480
 =======
 #include <iostream>
 #include <sstream>
@@ -20,6 +26,7 @@ Game::Game() :
     isPaused(false),
     fastDrop(false),
     moveDelay(Constants::MOVE_DELAY),
+<<<<<<< HEAD
 <<<<<<< HEAD
     timeSinceLastMove(0.0f),
     startScreen(font),
@@ -65,6 +72,8 @@ void Game::adjustViewForWindowSize(unsigned int width, unsigned int height) {
 
     window.setView(view);
 =======
+=======
+>>>>>>> 31caca8715998a75f980662684775b7544a0d480
     timeSinceLastMove(0.0f)
 {
     window.setFramerateLimit(60);
@@ -111,11 +120,15 @@ void Game::initializeText() {
     initText(gameOverText, "GAME OVER",
         Constants::WINDOW_WIDTH / 2.0f - 150.0f,
         Constants::WINDOW_HEIGHT / 2.0f - 30.0f, 48);
+<<<<<<< HEAD
+>>>>>>> 31caca8715998a75f980662684775b7544a0d480
+=======
 >>>>>>> 31caca8715998a75f980662684775b7544a0d480
 }
 
 void Game::run() {
     sf::Clock clock;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     while (window.isOpen()) {
@@ -136,12 +149,17 @@ void Game::run() {
         }
 
 =======
+=======
+>>>>>>> 31caca8715998a75f980662684775b7544a0d480
     while (window.isOpen()) {
         float deltaTime = clock.restart().asSeconds();
         processEvents();
         if (!isPaused && !board.isGameOver()) {
             update(deltaTime);
         }
+<<<<<<< HEAD
+>>>>>>> 31caca8715998a75f980662684775b7544a0d480
+=======
 >>>>>>> 31caca8715998a75f980662684775b7544a0d480
         render();
     }
@@ -154,6 +172,7 @@ void Game::processEvents() {
             window.close();
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (event.type == sf::Event::Resized) {
             adjustViewForWindowSize(event.size.width, event.size.height);
@@ -174,14 +193,19 @@ void Game::processEvents() {
 
 =======
 >>>>>>> 31caca8715998a75f980662684775b7544a0d480
+=======
+>>>>>>> 31caca8715998a75f980662684775b7544a0d480
         if (event.type == sf::Event::KeyPressed) {
             if (board.isGameOver() && event.key.code == sf::Keyboard::R) {
                 board.reset();
                 spawnTetromino();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 gameOverSoundPlayed = false;
                 // Restart background music after reset
                 backgroundMusic.play();
+=======
+>>>>>>> 31caca8715998a75f980662684775b7544a0d480
 =======
 >>>>>>> 31caca8715998a75f980662684775b7544a0d480
                 continue;
@@ -257,6 +281,7 @@ void Game::render() {
     window.clear(sf::Color::Black);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (isStartScreenActive) {
         startScreen.draw(window);
     }
@@ -322,6 +347,8 @@ void Game::render() {
 
         window.setView(originalView);
 =======
+=======
+>>>>>>> 31caca8715998a75f980662684775b7544a0d480
     // Draw game elements
     board.draw(window);
     if (currentTetromino) currentTetromino->draw(window);
@@ -378,11 +405,15 @@ void Game::render() {
             Constants::WINDOW_HEIGHT / 2.f - pauseText.getLocalBounds().height / 2.f
         );
         window.draw(pauseText);
+<<<<<<< HEAD
+>>>>>>> 31caca8715998a75f980662684775b7544a0d480
+=======
 >>>>>>> 31caca8715998a75f980662684775b7544a0d480
     }
 
     window.display();
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 void Game::initializeText() {
@@ -420,5 +451,7 @@ void Game::initializeText() {
         Constants::WINDOW_WIDTH / 2.0f - 150.0f,
         Constants::WINDOW_HEIGHT / 2.0f - 30.0f, 48);
 }
+=======
+>>>>>>> 31caca8715998a75f980662684775b7544a0d480
 =======
 >>>>>>> 31caca8715998a75f980662684775b7544a0d480

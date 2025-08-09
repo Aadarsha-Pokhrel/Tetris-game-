@@ -8,11 +8,14 @@
 #include "Tetromino.hpp"
 #include "Constants.hpp"
 <<<<<<< HEAD
+<<<<<<< HEAD
 #include "StartScreen.hpp"
 #include <SFML/Audio.hpp>  // add this include at the top of Game.hpp
 
 // inside class Game private section
 
+=======
+>>>>>>> 31caca8715998a75f980662684775b7544a0d480
 =======
 >>>>>>> 31caca8715998a75f980662684775b7544a0d480
 
@@ -27,6 +30,7 @@ private:
     void render();
     void spawnTetromino();
 <<<<<<< HEAD
+<<<<<<< HEAD
    
     void initializeText();
 
@@ -39,11 +43,16 @@ private:
     bool gameOverSoundPlayed;
   
 =======
+=======
+>>>>>>> 31caca8715998a75f980662684775b7544a0d480
     void initializeText();
     void updateUIText();
     void drawNextPiecePreview();
     void drawPauseScreen();
 
+<<<<<<< HEAD
+>>>>>>> 31caca8715998a75f980662684775b7544a0d480
+=======
 >>>>>>> 31caca8715998a75f980662684775b7544a0d480
     sf::RenderWindow window;
     Board board;
@@ -66,10 +75,13 @@ private:
     bool isPaused;
     bool fastDrop;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     // Start screen stuff
     StartScreen startScreen;
     bool isStartScreenActive;
+=======
+>>>>>>> 31caca8715998a75f980662684775b7544a0d480
 =======
 >>>>>>> 31caca8715998a75f980662684775b7544a0d480
 };

@@ -104,7 +104,10 @@
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>C:\Users\Acer\AppData\Roaming\Microsoft\Windows\Network Shortcuts\New folder\SFML-2.6.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <LanguageStandard>stdcpp17</LanguageStandard>
+=======
+>>>>>>> 31caca8715998a75f980662684775b7544a0d480
 =======
 >>>>>>> 31caca8715998a75f980662684775b7544a0d480
     </ClCompile>
@@ -113,7 +116,11 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>C:\Users\Acer\AppData\Roaming\Microsoft\Windows\Network Shortcuts\New folder\SFML-2.6.2\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <AdditionalDependencies>sfml-system-d.lib;sfml-graphics-d.lib;sfml-window-d.lib;sfml-audio-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+=======
+      <AdditionalDependencies>sfml-system-d.lib;sfml-graphics-d.lib;sfml-window-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+>>>>>>> 31caca8715998a75f980662684775b7544a0d480
 =======
       <AdditionalDependencies>sfml-system-d.lib;sfml-graphics-d.lib;sfml-window-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
 >>>>>>> 31caca8715998a75f980662684775b7544a0d480
@@ -129,7 +136,10 @@
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>C:\Users\Acer\AppData\Roaming\Microsoft\Windows\Network Shortcuts\New folder\SFML-2.6.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <LanguageStandard>stdcpp17</LanguageStandard>
+=======
+>>>>>>> 31caca8715998a75f980662684775b7544a0d480
 =======
 >>>>>>> 31caca8715998a75f980662684775b7544a0d480
     </ClCompile>
@@ -138,7 +148,11 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>C:\Users\Acer\AppData\Roaming\Microsoft\Windows\Network Shortcuts\New folder\SFML-2.6.2\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <AdditionalDependencies>sfml-system.lib;sfml-graphics.lib;sfml-window.lib;sfml-audio.lib;%(AdditionalDependencies)</AdditionalDependencies>
+=======
+      <AdditionalDependencies>sfml-system.lib;sfml-graphics.lib;sfml-window.lib;%(AdditionalDependencies)</AdditionalDependencies>
+>>>>>>> 31caca8715998a75f980662684775b7544a0d480
 =======
       <AdditionalDependencies>sfml-system.lib;sfml-graphics.lib;sfml-window.lib;%(AdditionalDependencies)</AdditionalDependencies>
 >>>>>>> 31caca8715998a75f980662684775b7544a0d480
@@ -149,7 +163,10 @@
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ClCompile Include="StartScreen.cpp" />
+=======
+>>>>>>> 31caca8715998a75f980662684775b7544a0d480
 =======
 >>>>>>> 31caca8715998a75f980662684775b7544a0d480
     <ClCompile Include="Tetromino.cpp" />
@@ -159,7 +176,10 @@
     <ClInclude Include="Constants.hpp" />
     <ClInclude Include="Game.hpp" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ClInclude Include="StartScreen.hpp" />
+=======
+>>>>>>> 31caca8715998a75f980662684775b7544a0d480
 =======
 >>>>>>> 31caca8715998a75f980662684775b7544a0d480
     <ClInclude Include="Tetromino.hpp" />
