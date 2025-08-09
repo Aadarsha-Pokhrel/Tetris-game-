@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+﻿  Game.cpp
+  main.cpp
+  StartScreen.cpp
+  Tetromino.cpp
+=======
+﻿  Board.cpp
+  Game.cpp
+  Tetromino.cpp
+  main.cpp
+>>>>>>> 31caca8715998a75f980662684775b7544a0d480
+  Generating Code...
+  ConsoleApplication1.vcxproj -> C:\Users\Acer\source\repos\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
