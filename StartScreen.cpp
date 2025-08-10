@@ -14,7 +14,7 @@ StartScreen::StartScreen(sf::Font& font) : fontRef(font) {
     author1.setFillColor(sf::Color::Cyan);
 
     author2.setFont(fontRef);
-    author2.setString("Aanath");
+    author2.setString("Aanat");
     author2.setCharacterSize(28);
     author2.setFillColor(sf::Color::Magenta);
 
